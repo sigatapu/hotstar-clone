@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+body{
+    background-color:  #0f1014;
+
+}
+/* -------------------------------------------------------------------------------------------------------------------
+                                   NAVBAR SECTION 
+-------------------------------------------------------------------------------------------------------------------                                    */
+#navbar{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 7.5%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn{
+   color: orange;
+   background-color: rgb(255, 165, 0,0.3);
+   padding: 5px;
+   border: none;
+   border-radius: 8px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#navbar ul{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    margin-top: 60%;
+
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li i:hover {
+    cursor: pointer;
+    color: #ffffff; /* Change color to white on hover */
+  /* Slightly increase size on hover */
+}
+
+
+.box{
+    height: 100vh;
+    width: 92.5%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+}
+
+
+span{
+    font-size: 5%;
+    position: absolute;
+    right: 10%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------
+                                       HOME SECTION 
+-------------------------------------------------------------------------------------------------------------------   */
+
+#home{
+    height: 100vh;
+    width: 92.5%;
+    background-color:rgb(0, 0, 0,0.6);
+    margin-left: 7.5%;
+    /* display: none; */
+}
+.trailer{
+    height: 80vh;
+    width: 99.5%;
+    /* border: 2px solid green; */
+}
+iframe{
+    position: absolute;
+    left: 15%;
+    z-index: -1;
+    margin-left: -5%;
+}
+.details{
+    /* border:2px solid red; */
+    height: 80vh;
+    width: 450px;
+    background-color: transparent;
+    color: rgb(255, 255, 2550,0.5);
+    position: absolute;
+    top: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+.btn-s{
+    background-color: rgb(255, 255, 2550,0.3);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding:6px ;
+    width: 350px;
+    height: 60px;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: none;
+}    
+.detail-content{
+    margin-top: 50%;
+}
+.squad{
+    font-weight: bold;
+    margin-top: 25px;
+}
+.latest-releases{
+    height: 45vh;
+    width: 98%;
+    /* border: 2px solid green; */
+}
+h2{
+    font-weight:unset;
+    color: white;
+}
+.latest-releases{
+    background-color: #0f1014 ;
+    margin-top: 20px;
+    z-index: 0;
+}
+.latest-release-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.latest-release-box{
+    width: 200px;
+    height: 250px;
+    /* border: 2px solid purple; */
+    margin: 10px;
+    border-radius: 5px;
+}
+.latest-release-box:hover{
+    box-shadow: 10px 10px 5px rgb(81, 80, 80);
+    cursor: pointer;
+}
+.top{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.top p{
+    color: rgb(69, 68, 68);
+    font-size: 15px;
+}
+.top p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+                                                   /* SEARCH PAGE STYLING STARTS HERE  */
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+                                                  
+
+#search{
+    height: 100vh;
+    width: 92.5%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    display: none;
+   
+}
+
+
+input[type="search"]{
+    height: 70px;
+    width: 95%;
+    background-color:rgb(37, 37, 37);
+    /* margin-left: 7.5%; */
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: bottom;
+}
+.insearch{
+    height: 150vh;
+}
+.bottom{
+    /* border: 2px solid red; */
+    height: 240px;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+.support{
+    /* border: 2px solid green; */
+    height: 100px;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+                                              /* PROFILE PAGE STYLEING SATRSTS HERE  */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+#profile{
+    height: 150vh;
+    width: 92%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    /* border: 2px solid red; */
+    display: none;   
+}
+.login{
+    /* border: 2px solid green; */
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: end;
+}
+.login h1{
+    font-weight:400;
+}
+.login p{
+    color: rgb(78, 77, 77);
+    font-weight: 300px;
+    margin-top: 20px;
+}
+.login-btn{
+    margin-top: 20px;
+    width: 15vw;
+    height: 7vh;
+    background-image: linear-gradient(to right, rgba(13, 47, 239), rgb(4, 14, 71));
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+    border: none;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    cursor: pointer;
+}
+.login img{
+    margin-bottom: 40px;
+}
+.contact-btn{
+    width: 15vw;
+    height: 45px;
+    background-color: rgb(255, 255, 2550,0.1);
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+.contact-btn:hover{
+  width: 15.5vw;
+  height: 46px;
+  cursor: pointer;
+}
+.profile-vid{
+    /* border: 2px solid orange; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-box{
+    height: 200px;
+    width: 250px;
+    /* border: 2px solid purple; */
+    border-bottom: 3px solid blue;
+    
+    margin: 5px;
+}
+.inside-profile h1{
+    color: white;
+    font-weight: 400;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+                                            /* TV PAGE STYLEING STARTS HERE  */
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+#tv{
+    height: 150vh;
+    width: 92%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    /* border: 2px solid red; */
+    display: none;   
+}
+
+.maha {
+    /* background-color: rgb(0, 0, 0,0.2); */
+    color: white;
+}
+.try img{
+    opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+                                            /* MOVIES PAGE STYLEING STARTS HERE  */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#movies{
+    height: 150vh;
+    width: 92%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    /* border: 2px solid red; */
+    display: none;   
+}
+
+.maha {
+    /* background-color: rgb(0, 0, 0,0.2); */
+    color: white;
+}
+.try img{
+    opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+                                            /* SPORTS PAGE STYLEING STARTS HERE  */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#sports{
+    height: 250vh;
+    width: 92%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    /* border: 2px solid red; */
+    display: none;   
+}
+
+.maha {
+    /* background-color: rgb(0, 0, 0,0.2); */
+    color: white;
+}
+.try img{
+    opacity: 0.7;
+}
+.movie-item{
+    width: 250px;
+    height: 200px;
+}
+.paralist{
+    width: 88vw;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+                                            /* CATEGORIES PAGE STYLEING STARTS HERE  */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#categories{
+    height: 250vh;
+    width: 92%;
+    background-color: #0f1014;
+    margin-left: 7.5%;
+    /* border: 2px solid red; */
+    display: none;   
+}
+
+.mcu{
+    /* border: 2px solid green; */
+    height: 35vh;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.channels{
+    /* border: 2px solid aqua; */
+    height: 130px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.channels:hover{
+    height: 150px;
+    width: 220px;
+}
+
+.languages{
+    height: 40vh;
+    /* border: 2px solid blueviolet; */
+   
+}
+.languages-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang-item{
+    height: 200px;
+    width: 270px;
+    /* border: 2px solid purple; */
+    margin: 5px; 
+    
+}
+.lang-item:hover{
+    box-shadow: 10px 10px 5px rgb(81, 80, 80);
+    cursor: pointer;
+}
